@@ -7,7 +7,7 @@ namespace Bakery.Models
     {
         public static string FinalPrice(string input)
         {
-            int price = int.Parse(input);
+            string price = "Buy 2, get 1 free. A single loaf costs $5.";
             return price.ToString();
         }
     }
