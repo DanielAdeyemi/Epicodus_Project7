@@ -11,4 +11,12 @@ namespace Bakery.Models
             return price.ToString();
         }
     }
+
+    public class Pastry
+    {
+        public static string FinalPrice(string input)
+        {
+            return input;
+        }
+    }
 }

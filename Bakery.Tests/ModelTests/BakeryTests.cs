@@ -15,5 +15,12 @@ namespace Scrabble.Tests
       string price = Bread.FinalPrice("1");
       Assert.AreEqual("Buy 2, get 1 free. A single loaf costs $5.", price);
     }
+
+    [TestMethod]
+    public void PastryConstractor_ReturnPrice_String()
+    {
+      string price = Pastry.FinalPrice("1");
+      Assert.AreEqual("Buy 1 for $2 or 3 for $5", price);
+    }
   }
 }
