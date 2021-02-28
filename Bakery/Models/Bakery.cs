@@ -16,7 +16,8 @@ namespace Bakery.Models
     {
         public static string FinalPrice(string input)
         {
-            return input;
+            string price = "Buy 1 for $2 or 3 for $5";
+            return price;
         }
     }
 }
