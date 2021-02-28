@@ -33,19 +33,19 @@ ___
 
 | # | Behavior | Input |  Output | Complete |
 | :------------- | :------------- | :------------- | :------------ | :-------------: |
-| 01 | display price for bread | - | Buy 2, get 1 free. A single loaf costs $5. | ❌ |
-| 02 | display price for pastry | - | Buy 1 for \$2 or 3 for $5 | ❌ |
+| 01 | display price for bread | 1 | Buy 2, get 1 free. A single loaf costs $5. | ❌ |
+| 02 | display price for pastry | 1 | Buy 1 for \$2 or 3 for $5 | ❌ |
 | 03 | if user inserts 1 loaf of bread display $5 | Bread:1 Pastry: 0| Toatal cost: $5 | ❌|
 | 04 | if user inserts 1 pastry display $2 | Bread:0 Pastry: 1| Toatal cost: $2 | ❌|
 | 05 | if user inserts 1 pastry and 1 bread display $7 | Bread:1 Pastry: 1| Toatal cost: $7 | ❌|
-| 06 | if user inserts 2 loaves of bread display 10 | Bread:2 Pastry: 0 | Total coast: $10  | ❌|
-| 07 | if user inserts 2 pastries display 4 | Bread:0 Pastry: 2 | Total coast: $4  | ❌|
-| 08 | if user inserts 2 pastries and 2 loaves of bread display 14 | Bread:2 Pastry: 2 | Total coast: $14  | ❌|
+| 06 | if user inserts 2 loaves of bread display 10 | Bread:2 Pastry: 0 | Total cost: $10  | ❌|
+| 07 | if user inserts 2 pastries display 4 | Bread:0 Pastry: 2 | Total cost: $4  | ❌|
+| 08 | if user inserts 2 pastries and 2 loaves of bread display 14 | Bread:2 Pastry: 2 | Total cost: $14  | ❌|
 | 09 | if user inserts 3 loaves of bread display 10 and deal's detail| Bread: 3 Pastry: 0  | Total cost: 10, you have third loaf for free. | ❌|
 | 10 | if user inserts 3 pastries display 5 and deal's detail| Bread: 0 Pastry: 3  | Total cost: 5, you have 3 for $5 pastries deal!!!. | ❌|
 | 11 | if user inserts 3 loaves of bread and 3 pastries display 15 and deal's detail| Bread: 3 Pastry: 3  | Total cost: 15, you have third loaf for free and 3 for $5 pastries! Nice savings with our store. | ❌|
-| 12 | if user inserts more than 3 loaves of bread  display correct price |  Bread: 10 Pastries: 0 | 35 | ❌|
-| 13 | if user inserts more than 3 pastries  display correct price |  Bread: 0 Pastries: 10 | 17 | ❌|
+| 12 | if user inserts more than 3 loaves of bread  display correct price |  Bread: 10 Pastries: 0 | Total cost: $35 | ❌|
+| 13 | if user inserts more than 3 pastries  display correct price |  Bread: 0 Pastries: 10 | Total Cost: $17 | ❌|
 | 07 |  |  |  | ❌|
 | 08 |  |  |  | ❌|
 | 09 |  |  |  | ✅|
