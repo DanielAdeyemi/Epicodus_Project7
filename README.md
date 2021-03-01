@@ -36,7 +36,7 @@ ___
 | 01 | display price for bread | "" | Buy 2, get 1 free. A single loaf costs $5. | ✅ |
 | 02 | display price for pastry | "" | Buy 1 for $2 or 3 for $5 | ✅ |
 | 03 | if user inserts 1 loaf of bread display $5 | Bread:1 Pastry: 0| Total cost: $5 | ✅ |
-| 04 | if user inserts 1 pastry display $2 | Bread:0 Pastry: 1| Total cost: $2 | ❌|
+| 04 | if user inserts 1 pastry display $2 | Bread:0 Pastry: 1| Total cost: $2 | ✅ |
 | 05 | if user inserts 1 pastry and 1 bread display $7 | Bread:1 Pastry: 1| Total cost: $7 | ❌|
 | 06 | if user inserts 2 loaves of bread display 10 | Bread:2 Pastry: 0 | Total cost: $10  | ❌|
 | 07 | if user inserts 2 pastries display 4 | Bread:0 Pastry: 2 | Total cost: $4  | ❌|
