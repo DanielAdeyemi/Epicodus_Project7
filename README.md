@@ -33,8 +33,8 @@ ___
 
 | # | Behavior | Input |  Output | Complete |
 | :------------- | :------------- | :------------- | :------------ | :-------------: |
-| 01 | display price for bread | 1 | Buy 2, get 1 free. A single loaf costs $5. | ❌ |
-| 02 | display price for pastry | 1 | Buy 1 for $2 or 3 for $5 | ❌ |
+| 01 | display price for bread | 1 | Buy 2, get 1 free. A single loaf costs $5. | ✅ |
+| 02 | display price for pastry | 1 | Buy 1 for $2 or 3 for $5 | ✅ |
 | 03 | if user inserts 1 loaf of bread display $5 | Bread:1 Pastry: 0| Toatal cost: $5 | ❌|
 | 04 | if user inserts 1 pastry display $2 | Bread:0 Pastry: 1| Toatal cost: $2 | ❌|
 | 05 | if user inserts 1 pastry and 1 bread display $7 | Bread:1 Pastry: 1| Toatal cost: $7 | ❌|
@@ -62,7 +62,7 @@ ___
 * At this point you should be able to successfully run `dotnet test` in the command line (keep in mind you should still be in the Bakery.Tests folder).
 
 ####  🖥️ View website:
-*GitHub page is not available for this project. To view functionality you need to run `dotnet run` and pass your word after that command before press enter.*
+*GitHub page is not available for this project. To view functionality you need to run `dotnet run` and pass requested information.*
 
 ## 🛠️ *Technologies used:*
 * C#9
@@ -81,5 +81,5 @@ This project was used to practice TDD in C# with MSTest and only can be exxecute
 
 ## 📘 *License and copyright:*
 
-> ***© Daniel Adeyemi, Mike Pingel, 2021***  
+> ***© Daniel Adeyemi, 2021***  
 > ⚖️ *[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)*
