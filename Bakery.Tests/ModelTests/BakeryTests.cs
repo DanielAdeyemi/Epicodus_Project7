@@ -36,5 +36,14 @@ namespace Scrabble.Tests
       string price = Pastry.FinalPrice("1");
       Assert.AreEqual("Total cost: $2", price);
     }
+
+    [TestMethod]
+    public void PastryAndBreadPriceForOne_ReturnPrice_String()
+    {
+      string pricePastry = Pastry.FinalPrice("1");
+      string priceBread = Bread.FinalPrice("1");
+      string price = pricePastry + priceBread;
+      Assert.AreEqual($"Total cost: {price}", price);
+    }
   }
 }
