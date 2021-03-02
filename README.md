@@ -72,7 +72,7 @@ ___
 This project was used to practice TDD in C# with MSTest and only can be executed in a terminal.
 
 ## 📬 Contact Information
-#### For any questions *[email author(s)](mailto:adeyemidany+github@gmail.com?subject=[GitHub])*
+#### For any questions *[email author](mailto:adeyemidany+github@gmail.com?subject=[GitHub])*
 
 
 
