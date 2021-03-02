@@ -13,14 +13,14 @@ namespace Scrabble.Tests
     public void BreadConstractor_ReturnPrice_Int()
     {
       int price = Bread.FinalPrice("");
-      Assert.AreEqual(-1, price);
+      Assert.AreEqual(0, price);
     }
 
     [TestMethod]
     public void PastryConstractor_ReturnPrice_Int()
     {
       int price = Pastry.FinalPrice("");
-      Assert.AreEqual(-2, price);
+      Assert.AreEqual(0, price);
     }
 
     [TestMethod]
@@ -67,7 +67,6 @@ namespace Scrabble.Tests
       int priceBread = Bread.FinalPrice("2");
       Assert.AreEqual(14, pricePastry + priceBread);
     }
-
 
     [TestMethod]
     public void BreadPriceForThree_ReturnPrice_Int()

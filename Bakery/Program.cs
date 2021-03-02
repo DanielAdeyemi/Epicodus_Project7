@@ -1,4 +1,3 @@
-using System;
 using static System.Console;
 using Bakery.Models;
 

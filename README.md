@@ -71,6 +71,10 @@ ___
 ## 🐛 *Known bugs:*
 This project was used to practice TDD in C# with MSTest and only can be executed in a terminal.
 
+## 🌟 *Improvement opportunity*
+* add error handling for more detailed message to user what went wrong
+* use more abstractions
+
 ## 📬 Contact Information
 #### For any questions *[email author](mailto:adeyemidany+github@gmail.com?subject=[GitHub])*
 
