@@ -43,7 +43,7 @@ ___
 | 08 | if user inserts 2 pastries and 2 loaves of bread display 14 | Bread:2 Pastry: 2 | 14  | ✅|
 | 09 | if user inserts 3 loaves of bread display 10| Bread: 3 Pastry: 0  | 10 | ✅|
 | 10 | if user inserts 3 pastries display 5| Bread: 0 Pastry: 3  | 5 | ✅|
-| 11 | if user inserts 3 loaves of bread and 3 pastries display 15| Bread: 3 Pastry: 3  | 15 | ❌|
+| 11 | if user inserts 3 loaves of bread and 3 pastries display 15| Bread: 3 Pastry: 3  | 15 | ✅ |
 | 12 | if user inserts more than 3 loaves of bread  display correct price |  Bread: 10 Pastries: 0 | 35 | ❌|
 | 13 | if user inserts more than 3 pastries  display correct price |  Bread: 0 Pastries: 10 | 17 | ❌|
 | 07 |  |  |  | ❌|
@@ -72,7 +72,7 @@ ___
 * Git and GitHub
 
 ## 🐛 *Known bugs:*
-This project was used to practice TDD in C# with MSTest and only can be exxecuted in a terminal.
+This project was used to practice TDD in C# with MSTest and only can be executed in a terminal.
 
 ## 📬 Contact Information
 #### For any questions *[email author(s)](mailto:adeyemidany+github@gmail.com?subject=[GitHub])*
