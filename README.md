@@ -11,7 +11,7 @@
 ___
 ### 📇 This project is not in a complete or portfolio ready state, and should not be considered as representation of professional work.
 
-<img src="http://blog.fagorindustrial.com/wp-content/uploads/2018/05/Como-montar-un-bakery-new.jpg" alt="Bakery image" height="50" align="center" />
+<img src="http://blog.fagorindustrial.com/wp-content/uploads/2018/05/Como-montar-un-bakery-new.jpg" alt="Bakery image" height="300" align="center"/>
 
 ___
 ## 🚩 *Description*:    
