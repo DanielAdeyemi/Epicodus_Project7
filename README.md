@@ -2,9 +2,7 @@
 #### <div align="center">📚 *Epicodus Independent Project # 7  (Week 1 of C#)  2/26 - 3/1/2021* </div> 
 ***<p align="right">By Daniel Adeyemi***</p>   
 <p align="center">
-<br>
 
-![check-code-coverage](https://img.shields.io/badge/code--coverage-100%25-brightgreen)
 <img alt="C#" src="https://img.shields.io/badge/c%23%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white"/>
 <img alt="made with Bash" src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg"/>    
 </p>
@@ -32,6 +30,7 @@ ___
 * Execute **code .** command in your terminal and it will open all source code in your code editor.    
 ⚠️ *Note: To run this project locally you will need to have .NET Core. You can check if you have .NET Core by running dotnet --version in the command line.   oad [](https://dotnet.microsoft.com/download/dotnet)*
 ### 📋 Specs:
+![check-code-coverage](https://img.shields.io/badge/code--coverage-100%25-brightgreen)
 <details>
 <summary>🚥 Tests</summary>
 
