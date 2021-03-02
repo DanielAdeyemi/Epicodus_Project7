@@ -14,7 +14,7 @@ namespace Bakery.Models
 				}
 				catch (System.Exception)
 				{	
-					return 1;
+					return -1;
 				}
 				// if (!String.IsNullOrEmpty(input)) 
 				// {
@@ -36,11 +36,11 @@ namespace Bakery.Models
       try
       {
         int number = int.Parse(input);
-        return 2;
+        return number * 2;
       }
       catch (System.Exception)
       {
-        return 2;
+        return -2;
       }
 
     	// if (!String.IsNullOrEmpty(input))
