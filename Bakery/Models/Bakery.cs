@@ -27,11 +27,8 @@ namespace Bakery.Models
       try
       {
         int number = int.Parse(input);
-				if (number == 3)
-				{
-					return 5;
-				}
-        return number * 2;
+				number = number*2 - number/3;
+        return number;
       }
       catch (System.Exception)
       {
