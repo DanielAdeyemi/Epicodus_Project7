@@ -32,15 +32,15 @@ ___
 <summary>🚥 Tests</summary>
 
 | # | Behavior | Input |  Output | Complete |
-| :------------- | :------------- | :------------- | :------------ | :-------------: |
-| 01 | display price for bread | "" | 1 | ✅ |
-| 02 | display price for pastry | "" | 2 | ✅ |
+| :------------- | :------------- | :------------- | :------------: | :-------------: |
+| 01 | display price for bread | "" | -1 | ✅ |
+| 02 | display price for pastry | "" | -2 | ✅ |
 | 03 | if user inserts 1 loaf of bread display $5 | Bread:1 Pastry: 0| 5 | ✅ |
 | 04 | if user inserts 1 pastry display $2 | Bread:0 Pastry: 1| 2 | ✅ |
 | 05 | if user inserts 1 pastry and 1 bread display $7 | Bread:1 Pastry: 1| 7 | ✅ |
 | 06 | if user inserts 2 loaves of bread display 10 | Bread:2 Pastry: 0 | 10  | ✅|
-| 07 | if user inserts 2 pastries display 4 | Bread:0 Pastry: 2 | 4  | ❌|
-| 08 | if user inserts 2 pastries and 2 loaves of bread display 14 | Bread:2 Pastry: 2 | 14  | ❌|
+| 07 | if user inserts 2 pastries display 4 | Bread:0 Pastry: 2 | 4  |✅ |
+| 08 | if user inserts 2 pastries and 2 loaves of bread display 14 | Bread:2 Pastry: 2 | 14  | ✅|
 | 09 | if user inserts 3 loaves of bread display 10| Bread: 3 Pastry: 0  | 10 | ❌|
 | 10 | if user inserts 3 pastries display 5| Bread: 0 Pastry: 3  | 5 | ❌|
 | 11 | if user inserts 3 loaves of bread and 3 pastries display 15| Bread: 3 Pastry: 3  | 15 | ❌|
