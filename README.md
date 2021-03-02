@@ -15,6 +15,7 @@ ___
 ___
 ## 🚩 *Description*:    
 ### *Want to try some delicious pastry or have fresh bread in your house? Check our app to know all about it (we also have special offers right now)*
+##### *A console application for Pierre's Bakery. App displays greeting message with current prices and offers. After it prompts a user to input how many loaves of bread and pastries he/she wants to buy and displays final price. If you input negative number - it will be interpreted as 0.*
 
 
 ## 🔧 *Setup/Installation instructions:*
@@ -29,7 +30,7 @@ ___
 * Clone my repository from GitHub using `git clone https://github.com/DanielAdeyemi/Epicodus_Project7.git` in your terminal or GitBash
 * Navigate to the downloaded folder using ***cd*** command
 * Execute **code .** command in your terminal and it will open all source code in your code editor.    
-⚠️ *Note: To run this project locally you will need to have .NET Core. You can check if you have .NET Core by running dotnet --version in the command line.   oad [](https://dotnet.microsoft.com/download/dotnet)*
+⚠️ *Note: To run this project locally you will need to have .NET Core. You can check if you have .NET Core by running `dotnet --version` in the command line. If you do not have .NET Core please find more information and download [here](https://dotnet.microsoft.com/download/dotnet).*
 ### 📋 Specs:
 ![check-code-coverage](https://img.shields.io/badge/code--coverage-100%25-brightgreen)
 <details>
@@ -59,7 +60,7 @@ ___
 * At this point you should be able to successfully run `dotnet test` in the command line (keep in mind you should still be in the Bakery.Tests folder).
 
 ####  🖥️ View website:
-*GitHub page is not available for this project. To view functionality you need to run `dotnet run` and pass requested information.*
+*GitHub page is not available for this project. To view functionality you need to run `dotnet run` from **Bakery** folder and pass requested information.*
 
 ## 🛠️ *Technologies used:*
 * C#9
@@ -71,8 +72,8 @@ ___
 ## 🐛 *Known bugs:*
 This project was used to practice TDD in C# with MSTest and only can be executed in a terminal.
 
-## 🌟 *Improvement opportunity*
-* add error handling for more detailed message to user what went wrong
+## 🌟 *Improvement opportunities:*
+* add error handling for more detailed message what went wrong
 * use more abstractions
 
 ## 📬 Contact Information
