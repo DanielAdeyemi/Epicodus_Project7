@@ -10,7 +10,7 @@ namespace Bakery.Models
         try
 				{
 					int number = int.Parse(input);
-					return 5;
+					return number * 5;
 				}
 				catch (System.Exception)
 				{	
