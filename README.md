@@ -4,14 +4,15 @@
 <p align="center">
 <br>
 
+![check-code-coverage](https://img.shields.io/badge/code--coverage-100%25-brightgreen)
 <img alt="C#" src="https://img.shields.io/badge/c%23%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white"/>
-<img alt="made with Bash" src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg"/>
+<img alt="made with Bash" src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg"/>    
 </p>
 
 ___
 ### 📇 This project is not in a complete or portfolio ready state, and should not be considered as representation of professional work.
 
-<img src="http://blog.fagorindustrial.com/wp-content/uploads/2018/05/Como-montar-un-bakery-new.jpg" alt="Bakery image" height="300" align="center"/>
+<img src="http://blog.fagorindustrial.com/wp-content/uploads/2018/05/Como-montar-un-bakery-new.jpg" alt="Bakery image" width="300" display="block" margin="auto"/>
 
 ___
 ## 🚩 *Description*:    
