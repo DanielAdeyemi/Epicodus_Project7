@@ -10,40 +10,40 @@ namespace Scrabble.Tests
   {
 
     [TestMethod]
-    public void BreadConstractor_ReturnPrice_String()
+    public void BreadConstractor_ReturnPrice_Int()
     {
-      string price = Bread.FinalPrice("");
-      Assert.AreEqual("Buy 2, get 1 free. A single loaf costs $5.", price);
+      int price = Bread.FinalPrice("");
+      Assert.AreEqual(1, price);
     }
 
     [TestMethod]
-    public void PastryConstractor_ReturnPrice_String()
+    public void PastryConstractor_ReturnPrice_Int()
     {
-      string price = Pastry.FinalPrice("");
-      Assert.AreEqual("Buy 1 for $2 or 3 for $5", price);
+      int price = Pastry.FinalPrice("");
+      Assert.AreEqual(2, price);
     }
 
     [TestMethod]
-    public void BreadPriceForOne_ReturnPrice_String()
+    public void BreadPriceForOne_ReturnPrice_Int()
     {
-      string price = Bread.FinalPrice("1");
-      Assert.AreEqual("Total cost: $5", price);
+      int price = Bread.FinalPrice("1");
+      Assert.AreEqual(5, price);
     }
 
     [TestMethod]
-    public void PastryPriceForOne_ReturnPrice_String()
+    public void PastryPriceForOne_ReturnPrice_Int()
     {
-      string price = Pastry.FinalPrice("1");
-      Assert.AreEqual("Total cost: $2", price);
+      int price = Pastry.FinalPrice("1");
+      Assert.AreEqual(2, price);
     }
 
     [TestMethod]
-    public void PastryAndBreadPriceForOne_ReturnPrice_String()
+    public void PastryAndBreadPriceForOne_ReturnPrice_Int()
     {
-      string pricePastry = Pastry.FinalPrice("1");
-      string priceBread = Bread.FinalPrice("1");
-      string price = pricePastry + priceBread;
-      Assert.AreEqual($"Total cost: {price}", price);
+      int pricePastry = Pastry.FinalPrice("1");
+      int priceBread = Bread.FinalPrice("1");
+      int price = pricePastry + priceBread;
+      Assert.AreEqual(7, price);
     }
   }
 }
