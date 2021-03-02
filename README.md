@@ -10,7 +10,7 @@
 ___
 ### 📇 This project is not in a complete or portfolio ready state, and should not be considered as representation of professional work.
 
-<img src="http://blog.fagorindustrial.com/wp-content/uploads/2018/05/Como-montar-un-bakery-new.jpg" alt="Bakery image" width="300" display="block" margin="auto"/>
+<div style="text-align:center"><img src="http://blog.fagorindustrial.com/wp-content/uploads/2018/05/Como-montar-un-bakery-new.jpg" alt="Bakery image" width="300"/></div>
 
 ___
 ## 🚩 *Description*:    
@@ -22,7 +22,8 @@ ___
 * Go to my GitHub repository, using following [URL](https://github.com/DanielAdeyemi/Epicodus_Project7.git).
 * * At the top of the repository, click <img src="https://i.imgur.com/Ej9Dphm.png" alt="Code Button" height="20" align="center" /> then select "Download ZIP".
 
-  <img src="https://i.imgur.com/tZKvGne.gif" alt="download zip gif" height="200"/>
+<img src="https://i.imgur.com/tZKvGne.gif" alt="download zip gif" height="200"/>
+
 * Unzip the file, navigate to the `Bakery/Models` directory to check code or to the `Bakery.Tests/ModelTests` directory to see tests.
 #### ⚙️ From the terminal: 
 * Clone my repository from GitHub using `git clone https://github.com/DanielAdeyemi/Epicodus_Project7.git` in your terminal or GitBash

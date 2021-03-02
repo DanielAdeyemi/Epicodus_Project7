@@ -15,7 +15,7 @@ namespace Bakery.Models
 				}
 				catch (System.Exception)
 				{	
-					return -1;
+					return 0;
 				}
       }
   }
@@ -32,7 +32,7 @@ namespace Bakery.Models
       }
       catch (System.Exception)
       {
-        return -2;
+        return 0;
       }
     }
   }
