@@ -10,26 +10,13 @@ namespace Bakery.Models
         try
 				{
 					int number = int.Parse(input);
-					if (number == 3) 
-					{
-						number--;
-					}
-					return number * 5;
+					number = ((number/3)*2 + number%3)*5;
+					return number;
 				}
 				catch (System.Exception)
 				{	
 					return -1;
 				}
-				// if (!String.IsNullOrEmpty(input)) 
-				// {
-        //   double price = "Total cost: $5";
-        //   return price;
-        // }
-        // else
-        // {
-    	  //   double price = "Buy 2, get 1 free. A single loaf costs $5.";
-        //   return price.ToString();
-        // }
       }
   }
 
@@ -50,17 +37,6 @@ namespace Bakery.Models
       {
         return -2;
       }
-
-    	// if (!String.IsNullOrEmpty(input))
-      // {
-      //   string price = "Total cost: $2";
-      //   return price;
-      // }
-      // else
-      // {
-      //   string price = "Buy 1 for $2 or 3 for $5";
-      //   return price;
-      // }
     }
   }
 }

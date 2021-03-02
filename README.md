@@ -44,7 +44,7 @@ ___
 | 09 | if user inserts 3 loaves of bread display 10| Bread: 3 Pastry: 0  | 10 | ✅|
 | 10 | if user inserts 3 pastries display 5| Bread: 0 Pastry: 3  | 5 | ✅|
 | 11 | if user inserts 3 loaves of bread and 3 pastries display 15| Bread: 3 Pastry: 3  | 15 | ✅ |
-| 12 | if user inserts more than 3 loaves of bread  display correct price |  Bread: 10 Pastries: 0 | 35 | ❌|
+| 12 | if user inserts more than 3 loaves of bread  display correct price |  Bread: 10 Pastries: 0 | 35 | ✅|
 | 13 | if user inserts more than 3 pastries  display correct price |  Bread: 0 Pastries: 10 | 17 | ❌|
 | 07 |  |  |  | ❌|
 | 08 |  |  |  | ❌|
