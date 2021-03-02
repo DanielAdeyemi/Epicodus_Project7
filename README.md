@@ -1,5 +1,5 @@
 ## <div align="center">Pierre's Bakery</div>
-#### <div align="center">📚 *Epicodus Independent Project # 7  (Week 1 of C#)  2/26/2021* </div> 
+#### <div align="center">📚 *Epicodus Independent Project # 7  (Week 1 of C#)  2/26 - 3/1/2021* </div> 
 ***<p align="right">By Daniel Adeyemi***</p>   
 <p align="center">
 <br>
@@ -10,6 +10,9 @@
 
 ___
 ### 📇 This project is not in a complete or portfolio ready state, and should not be considered as representation of professional work.
+
+<img src="http://blog.fagorindustrial.com/wp-content/uploads/2018/05/Como-montar-un-bakery-new.jpg" alt="Bakery image" height="50" align="center" />
+
 ___
 ## 🚩 *Description*:    
 ### *Want to try some delicious pastry or have fresh bread in your house? Check our app to know all about it (we also have special offers right now)*
