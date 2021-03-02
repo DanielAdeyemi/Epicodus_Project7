@@ -98,5 +98,11 @@ namespace Scrabble.Tests
       Assert.AreEqual(35, price);
     }
 
+    [TestMethod]
+    public void PastryPriceForTen_ReturnPrice_Int()
+    {
+      int price = Pastry.FinalPrice("10");
+      Assert.AreEqual(17, price);
+    }
   }
 }
