@@ -75,5 +75,12 @@ namespace Scrabble.Tests
       int price = Bread.FinalPrice("3");
       Assert.AreEqual(10, price);
     }
+
+    [TestMethod]
+    public void PastryPriceForThree_ReturnPrice_Int()
+    {
+      int price = Pastry.FinalPrice("3");
+      Assert.AreEqual(5, price);
+    }
   }
 }
