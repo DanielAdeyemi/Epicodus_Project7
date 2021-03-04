@@ -38,8 +38,8 @@ ___
 
 | # | Behavior | Input |  Output | Complete |
 | :------------- | :------------- | :------------- | :------------: | :-------------: |
-| 01 | display price for bread | "" | -1 | ✅ |
-| 02 | display price for pastry | "" | -2 | ✅ |
+| 01 | display price for bread | "" | 0 | ✅ |
+| 02 | display price for pastry | "" | 0 | ✅ |
 | 03 | if user inserts 1 loaf of bread display $5 | Bread:1 Pastry: 0| 5 | ✅ |
 | 04 | if user inserts 1 pastry display $2 | Bread:0 Pastry: 1| 2 | ✅ |
 | 05 | if user inserts 1 pastry and 1 bread display $7 | Bread:1 Pastry: 1| 7 | ✅ |
