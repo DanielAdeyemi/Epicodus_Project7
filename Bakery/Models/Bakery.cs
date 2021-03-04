@@ -3,7 +3,7 @@ namespace Bakery.Models
   public class Bread
   {
 
-    public string Loaves { get; }
+    public string Loaves { get; set; }
 
     public Bread(string loaves) 
     {
@@ -31,7 +31,7 @@ namespace Bakery.Models
   public class Pastry
   {
 
-    public string Pastries { get; }
+    public string Pastries { get; set; }
 
     public Pastry(string pastries)
     {
