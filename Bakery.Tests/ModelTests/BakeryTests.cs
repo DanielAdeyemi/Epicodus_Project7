@@ -10,36 +10,42 @@ namespace Bakery.Tests
     [TestMethod]
     public void BreadConstractor_ReturnPrice_0()
     {
-      int price = Bread.FinalPrice("");
+      Bread newBread = new Bread("");
+      int price = newBread.FinalPrice();
       Assert.AreEqual(0, price);
     }
 
     [TestMethod]
     public void PastryConstractor_ReturnPrice_0()
     {
-      int price = Pastry.FinalPrice("");
+      Pastry newPastry = new Pastry("");
+      int price = newPastry.FinalPrice();
       Assert.AreEqual(0, price);
     }
 
     [TestMethod]
     public void BreadPriceForOne_ReturnPrice_5()
     {
-      int price = Bread.FinalPrice("1");
+      Bread newBread = new Bread("1");
+      int price = newBread.FinalPrice();
       Assert.AreEqual(5, price);
     }
 
     [TestMethod]
     public void PastryPriceForOne_ReturnPrice_2()
     {
-      int price = Pastry.FinalPrice("1");
+      Pastry newPastry = new Pastry("1");
+      int price = newPastry.FinalPrice();
       Assert.AreEqual(2, price);
     }
 
     [TestMethod]
     public void PastryAndBreadPriceForOne_ReturnPrice_7()
     {
-      int pricePastry = Pastry.FinalPrice("1");
-      int priceBread = Bread.FinalPrice("1");
+      Bread newBread = new Bread("1");
+      Pastry newPastry = new Pastry("1");
+      int pricePastry = newPastry.FinalPrice();
+      int priceBread = newBread.FinalPrice();
       int price = pricePastry + priceBread;
       Assert.AreEqual(7, price);
     }
@@ -47,58 +53,68 @@ namespace Bakery.Tests
     [TestMethod]
     public void BreadPriceForTwo_ReturnPrice_10()
     {
-      int price = Bread.FinalPrice("2");
+      Bread newBread = new Bread("2");
+      int price = newBread.FinalPrice();
       Assert.AreEqual(10, price);
     }
 
     [TestMethod]
     public void PastryAndBreadPriceForTwo_ReturnPrice_4()
     {
-      int price = Pastry.FinalPrice("2");
+      Pastry newPastry = new Pastry("2");
+      int price = newPastry.FinalPrice();
       Assert.AreEqual(4, price);
     }
   
     [TestMethod]
     public void PastryPriceForTwo_ReturnPrice_14()
     {
-      int pricePastry = Pastry.FinalPrice("2");
-      int priceBread = Bread.FinalPrice("2");
+      Bread newBread = new Bread("2");
+      Pastry newPastry = new Pastry("2");
+      int pricePastry = newPastry.FinalPrice();
+      int priceBread = newBread.FinalPrice();
       Assert.AreEqual(14, pricePastry + priceBread);
     }
 
     [TestMethod]
     public void BreadPriceForThree_ReturnPrice_10()
     {
-      int price = Bread.FinalPrice("3");
+      Bread newBread = new Bread("3");
+      int price = newBread.FinalPrice();
       Assert.AreEqual(10, price);
     }
 
     [TestMethod]
     public void PastryPriceForThree_ReturnPrice_5()
     {
-      int price = Pastry.FinalPrice("3");
+      Pastry newPastry = new Pastry("3");
+      int price = newPastry.FinalPrice();
       Assert.AreEqual(5, price);
     }
 
     [TestMethod]
     public void PastryAndBreadPriceForThree_ReturnPrice_15()
     {
-      int pricePastry = Pastry.FinalPrice("3");
-      int priceBread = Bread.FinalPrice("3");
+      Bread newBread = new Bread("3");
+      Pastry newPastry = new Pastry("3");
+      int pricePastry = newPastry.FinalPrice();
+      int priceBread = newBread.FinalPrice();
       Assert.AreEqual(15, pricePastry + priceBread);
     }
 
     [TestMethod]
     public void BreadPriceForTen_ReturnPrice_35()
     {
-      int price = Bread.FinalPrice("10");
+      Bread newBread = new Bread("10");
+      int price = newBread.FinalPrice();
       Assert.AreEqual(35, price);
     }
 
     [TestMethod]
     public void PastryPriceForTen_ReturnPrice_17()
     {
-      int price = Pastry.FinalPrice("10");
+      Pastry newPastry = new Pastry("10");
+      int price = newPastry.FinalPrice();
       Assert.AreEqual(17, price);
     }
   }
