@@ -12,17 +12,17 @@ namespace Bakery
       WriteLine("Bread: Buy 2, get 1 free. A single loaf costs $5.");
       WriteLine("Pastry: Buy 1 for $2 or 3 for $5.");
       WriteLine("If you are interested and want to choose optinons for price estimation, please type 'Y', otherwise, type any character");
-      if (!ReadLine().Equals("Y"))
+      if (!ReadLine().ToUpper().Equals("Y"))
       {
         WriteLine("We hope you will find something you are looking for next time!");
       }
       else
       {
         WriteLine("How many loaves of bread do you want? ");
-        string bread = ReadLine();
+        Bread newBread = new Bread(ReadLine());
         WriteLine("How many pastries do you want? ");
-        string pastries = ReadLine();
-        int price = Bread.FinalPrice(bread) + Pastry.FinalPrice(pastries);
+        Pastry newPastry = new Pastry(ReadLine());
+        int price = newBread.FinalPrice() + newPastry.FinalPrice();
         if (price == 0)
         {
           WriteLine("I am afraid you input 0 or something invalid. Try again!");

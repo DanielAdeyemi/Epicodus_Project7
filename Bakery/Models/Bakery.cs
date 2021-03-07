@@ -9,11 +9,11 @@ namespace Bakery.Models
     {
       Loaves = loaves;
     }
-    public static int FinalPrice(string loaves)
+    public int FinalPrice()
     {
       try
       {
-        int number = int.Parse(loaves);
+        int number = int.Parse(Loaves);
         if (number <= 0)
         {
           throw new System.Exception();
@@ -38,11 +38,11 @@ namespace Bakery.Models
       Pastries = pastries;
     }
     
-    public static int FinalPrice(string pastries)
+    public int FinalPrice()
     {
       try
       {
-        int number = int.Parse(pastries);
+        int number = int.Parse(Pastries);
         if (number <= 0)
           {
             throw new System.Exception();
